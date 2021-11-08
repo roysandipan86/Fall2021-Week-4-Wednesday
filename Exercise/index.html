@@ -3,18 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML Form </title>
+    <style>
+
+        body {background-color:lightblue; text-align:left;}
+        h1 {color:blue; font-size:40px;}
+        p {font-family:verdana; font-size:20px;}
+    </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<h3>
-    Form Design Exercise:
-</h3>
-<p style="font-family: Helvetica;font-size: medium">
-    Disregarding the style of the page: <br>
-    <a href="https://forms.gle/qjz8MKR4YXWkWCVLA">https://forms.gle/qjz8MKR4YXWkWCVLA</a>
-</p>
-<p style="font-family: Helvetica;font-size: medium">
-    Try to replicate the format of the form in the page.<br>
-    Make use of "Label", "Input" and "Table".
-</p>
+<style>
+    h1, h2, h3, h4, h5, h6, h7
+{
+    font-weight: normal;
+}
+</style>
+<h1>
+    <b>Sample Form</b>
+</h1>
+<p>Choose a topic, and research interest for the individual visualization project.</p>
+<hr>
+
+<form>
+    <label for="email">Email <sup>*</sup></label><br>
+    <input type="text" id="email" name="email" placeholder = "Your email"><br>
+</form>
+<hr>
+
+<form>
+    <label for="fname">Firstname</label><br>
+    <input type="text" id="fname" name="fname" placeholder = "Your answer"><br>
+</form>
+<hr>
+
+<form>
+    <label for="lname">Lastname</label><br>
+    <input type="text" id="lname" name="lname" placeholder = "Your answer"><br>
+</form>
+<hr>
+
+<form>
+    <label for="rint">Research Interest (list at least 3) <sup>*</sup></label><br>
+    <input type="text" id="rint" name="rint" placeholder = "Your answer"><br>
+</form>
+<hr>
+
+<form>
+    <label for="ptitle">Project Title - (e.g. income vs education US Census) <sup>*</sup></label><br>
+    <input type="text" id="ptitle" name="ptitle" placeholder = "Your answer"><br>
+</form>
+<hr>
+
+<h2>
+    Top Skills <sup>*</sup>
+</h2>
+
+<form>
+    <input type="checkbox" id="skill1" name="skill1" value="SQL">
+    <label for="skill1"> SQL</label><br>
+    <input type="checkbox" id="skill2" name="skill2" value="Python">
+    <label for="skill2">Python programming</label><br>
+    <input type="checkbox" id="skill3" name="skill3" value="Matlab">
+    <label for="skill3">Matlab</label><br>
+    <input type="checkbox" id="skill4" name="skill4" value="D3js">
+    <label for="skill4">D3js and Javascript</label><br>
+    <input type="checkbox" id="skill5" name="skill5" value="VB">
+    <label for="skill5">C# VB.net</label><br>
+    <input type="checkbox" id="skill6" name="skill6" value="PHP">
+    <label for="skill6">PHP</label><br>
+    <input type="checkbox" id="skill7" name="skill7" value="NodeJS">
+    <label for="skill7">Node.JS</label><br>
+    <input type="checkbox" id="skill8" name="skill8" value="WDesign">
+    <label for="skill8">Web design tools (e.g. Wordpress)</label><br>
+    <input type="checkbox" id="skill9" name="skill9" value="HTML">
+    <label for="skill9">HTML and CSS</label><br>
+    <input type="checkbox" id="skill10" name="skill10" value="Excel">
+    <label for="skill10">Excel</label><br>
+    <input type="checkbox" id="skill11" name="skill11" value="PowerBI">
+    <label for="skill11">PowerBI</label><br>
+    <input type="checkbox" id="skill12" name="skill12" value="Tableau">
+    <label for="skill12">Tableau</label><br>
+    <input type="checkbox" id="skill13" name="skill13" value="Option">
+    <label for="skill13">Option 13</label><br>
+
+</form>
+<hr>
+
+<form>
+    <label for="suggestions">Suggestions or Questions</label><br>
+    <input type="text" id="sugestions" name="suggestions" placeholder = "Your answer"><br>
+</form>
+
+<p></p>
+
+<form>
+    <input type="button" 
+    style="background-color:darkblue;color:white;width:150px;height:40px;"
+    value="Submit">
+</form>
+
+
 </body>
 </html>
